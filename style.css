@@ -15,7 +15,7 @@ h1{
     height: auto;
     margin: auto;
     display: block;
-    border-radius: 10%;
+    border-radius: 10px;
 }
 
 .welcome{
@@ -24,8 +24,8 @@ h1{
 }
 
 .about{
-    text-align: center;
-    margin-top: 20px;
+    text-align: justify;
+    color: #ffffff;
 }
 
 .gallery{
@@ -81,7 +81,8 @@ h2{
 
 }
 *
-{box-sizing: border-box;
+{
+    box-sizing: border-box;
 }
 
 footer{
@@ -148,5 +149,9 @@ footer{
 .contact a:hover{
     color: #000000;
     text-decoration: underline;
+}
 
+
+.contact-link{
+    color:#ffff00;
 }
