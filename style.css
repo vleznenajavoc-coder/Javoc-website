@@ -5,6 +5,10 @@ body{
     color: #ffff00;
 }
 
+body{
+    background-image: url(images/owner.jpg);
+}
+
 h1{
     text-align: center;
     color: #ffffff;
@@ -20,7 +24,7 @@ h1{
 
 .welcome{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .about{
@@ -154,4 +158,9 @@ footer{
 
 .contact-link{
     color:#ffff00;
+}
+
+.social-link{
+    color: #000000;
+    text-decoration: none;
 }
